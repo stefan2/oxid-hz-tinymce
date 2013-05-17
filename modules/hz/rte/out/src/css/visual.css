@@ -1,0 +1,37 @@
+@charset 'utf-8';
+/**
+ *  Editor Format
+ */
+.clear{ display: inline-block;}
+.clear:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+
+h1,h2,h3,h4,h5,h6{ border:1px dotted #ddd; }
+
+p,address,div,ul,ol,h1,h2,h3,h4,h5,h6,blockquote,code,pre
+{
+    background-color: #f6f6f6;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    border: 1px dotted #ddd;
+    padding:2px;
+}
+
+ol, ul{ margin-left: 25px; }
+ol li, ul li{ margin-bottom: 3px; }
+
+p{ background-image:url(p.png) }
+address{ background-image:url(address.png) }
+div{ background-image:url(div.png) }
+h1{ background-image:url(h1.png) }
+h2{ background-image:url(h2.png) }
+h3{ background-image:url(h3.png) }
+h4{ background-image:url(h4.png) }
+h5{ background-image:url(h5.png) }
+h6{ background-image:url(h6.png) }
+ol{ background-image:url(ol.png) }
+ul{ background-image:url(ul.png) }
+blockquote{ background-image:url(blockquote.png) }
+pre{ background-image:url(pre.png); font-family:courier; font-size: 12px; white-space:pre;}
+code{ background-image:url(code.png) }
+
+/* p:after, h2:after, h3:after, h4:after {content:"\00B6\00A0";font-size:12px;} */

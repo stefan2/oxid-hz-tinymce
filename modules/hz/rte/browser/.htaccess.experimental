@@ -1,0 +1,7 @@
+#<DirectoryMatch !themes$>
+#    Deny From All
+#</DirectoryMatch>
+#<LocationMatch "!\/themes*">
+#    Order allow,deny
+#    Deny from all
+#</LocationMatch>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: menu.xml 29 2013-05-10 16:00:06Z stefan $ -->
+<OX>
+    <OXMENU id="HZ - Werkzeuge">
+        <MAINMENU id="Browser">
+            <SUBMENU id="Dateien verwalten" cl="hzfilebrowser" />
+        </MAINMENU>
+    </OXMENU>
+</OX>
